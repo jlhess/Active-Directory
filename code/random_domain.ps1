@@ -65,7 +65,7 @@ for ( $i = 1; $i -le $UserCount; $i++ ){
 }
 
 ConvertTo-Json -InputObject @{ 
-    "domain"= "xyz.com"
+    "domain"= "zyx.com"
     "groups"=$groups
     "users"=$users
 } | Out-File $OutputJSONFile 
