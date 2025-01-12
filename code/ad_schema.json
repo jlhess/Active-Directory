@@ -11,26 +11,26 @@
 
         {
             "local_admin": ["ws01"],
-            "name": "Alice Lice",
+            "name": "Justin Hart",
             "password":"bubbles",
             "groups": [
-                "Employees"
+                "Manager"
             ]
         },
         {
             "local_admin": ["ws02"],
-            "name": "Bob Ob",
+            "name": "Aiden Stevens",
             "password":"ashley",
             "groups": [
-                "Employees"
+                "Manager"
             ]
         },
         {
             "local_admin": ["ws01", "ws02", "dc1"],
-            "name": "Charlie Harlie",
+            "name": "Jessica Klunk",
             "password":"P@ssw0rdABC",
             "groups": [
-                "Employees"
+                "Manager"
             ]
         }
     ]
