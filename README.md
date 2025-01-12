@@ -17,7 +17,7 @@ Kali Linux as Attack Box
 - Low-privilege users granted local admin rights on multiple machines.
 
 <b>Misconfigured Group Memberships:</b></br>
-- Users added to groups that don’t align with the principle of least privilege.
+- Users added to groups that violate the principle of least privilege, increasing the attack surface.
 
 # Tools Used
 <b>PowerShell</b><br>
@@ -30,8 +30,8 @@ Kali Linux as Attack Box
 - Exploits weak passwords and misconfigurations to gain unauthorized access.<br>
 
 <b>BloodHound</b><br>
-- Maps AD relationships to identify attack paths.<br>
-- Demonstrates how attackers escalate privileges or move laterally using misconfigured permissions.<br>
+- Maps AD relationships and attack paths.<br>
+- Identifies privilege escalation paths and misconfigured permissions.<br>
 
 <b>Impacket</b><br>
 - Provides tools for various AD exploits, such as SMB connections, Kerberos attacks, and credential dumping.
@@ -43,10 +43,10 @@ Kali Linux as Attack Box
 <b>Extract Password Policy</b><br><br>
 <img src="https://imgur.com/az5qlOY.png" height="60%" width="60%" alt="Password Policy"/>
 <h3>Impacket</h3>
-<b>Shell on DC and Displaying Priviliges for Local Admin Account</b><br><br>
+<b>Gaining a shell on the domain controller and demonstrating privileges of a local admin account.</b><br><br>
 <img src="https://imgur.com/KcXq7zO.png" height="60%" width="60%" alt="Shell"/>
 <h3>Bloodhound</h3>
 <b>Mapping Shortest Path to Domain Admins</b><br><br>
 <img src="https://imgur.com/aDcCd0h.png" height="60%" width="60%" alt="Domain Admins"/><br>
-<b>Principals with DCSync Rights</b><br>
+<b>Principals with DCSync Rights</b><br><br>
 <img src="https://imgur.com/vPeczit.png" height="60%" width="60%" alt="DCSync Rights"/><br>
